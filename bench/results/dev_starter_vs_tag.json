@@ -1,0 +1,177 @@
+{
+ "agent1": "bench/starter_agent.py",
+ "agent1_env": {},
+ "deals": 1000,
+ "matches": [
+  {
+   "opponent": "sparring_tag.py",
+   "seed": "101",
+   "bb_per_deal": -1.27,
+   "ci": [
+    -1.3036,
+    -1.2364
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.021,
+    0.016
+   ],
+   "calls": [
+    1275,
+    1276
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.02,
+    0.52
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    null,
+    null
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "sparring_tag.py",
+   "seed": "102",
+   "bb_per_deal": -1.2535,
+   "ci": [
+    -1.288,
+    -1.219
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.001,
+    0.017
+   ],
+   "calls": [
+    1261,
+    1258
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.02,
+    0.52
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    null,
+    null
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "sparring_tag.py",
+   "seed": "103",
+   "bb_per_deal": -1.281,
+   "ci": [
+    -1.3138,
+    -1.2482
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.013,
+    0.06
+   ],
+   "calls": [
+    1311,
+    1249
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.03,
+    1.02
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    null,
+    null
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [],
+    "missing": false
+   }
+  }
+ ],
+ "pooled": {
+  "sparring_tag.py": {
+   "bb_per_deal": -1.2681666666666667,
+   "ci": [
+    -1.2875950104443439,
+    -1.2487383228889894
+   ],
+   "deals": 3000
+  }
+ },
+ "problem_matches": 0
+}

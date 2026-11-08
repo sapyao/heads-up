@@ -1,0 +1,22 @@
+startup: evaluator table 0.19s, opsbot tables+model 0.65s
+preflop features+lookup: 15.3 us
+board=3 samples=64    0.158 ms   typical MC s.e. 0.057
+board=3 samples=128   0.213 ms   typical MC s.e. 0.041
+board=3 samples=256   0.314 ms   typical MC s.e. 0.029
+board=3 samples=384   0.490 ms   typical MC s.e. 0.023
+board=3 samples=512   0.640 ms   typical MC s.e. 0.020
+board=4 samples=64    0.155 ms   typical MC s.e. 0.052
+board=4 samples=128   0.238 ms   typical MC s.e. 0.038
+board=4 samples=256   0.440 ms   typical MC s.e. 0.026
+board=4 samples=384   0.596 ms   typical MC s.e. 0.022
+board=4 samples=512   0.761 ms   typical MC s.e. 0.019
+board=5 samples=64    0.083 ms   typical MC s.e. 0.045
+board=5 samples=128   0.107 ms   typical MC s.e. 0.033
+board=5 samples=256   0.185 ms   typical MC s.e. 0.022
+board=5 samples=384   0.266 ms   typical MC s.e. 0.018
+board=5 samples=512   0.310 ms   typical MC s.e. 0.015
+choose_action PREFLOP  n=751   mean 0.026 ms  p99 0.072 ms  max 0.091 ms
+choose_action FLOP     n=544   mean 0.389 ms  p99 0.885 ms  max 1.071 ms
+choose_action TURN     n=273   mean 0.387 ms  p99 0.921 ms  max 1.002 ms
+choose_action RIVER    n=118   mean 0.236 ms  p99 0.633 ms  max 1.005 ms
+total think over 600 hands: 0.364s (1686 decisions)

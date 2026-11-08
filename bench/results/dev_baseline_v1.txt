@@ -1,0 +1,17 @@
+agent1=agent.py env={} deals=1000 (bot logs: C:\Users\ethan\AppData\Local\Temp\ops_eval_eykmxyg4)
+baseline_random.py             seed=101      +9.982 bb/deal CI[+8.530,+11.434] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[1.533, 3.022]s calls=[2773, 2709] startup=[3.8, 2.78]s
+baseline_random.py             seed=102      +8.243 bb/deal CI[+6.729,+9.758] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[2.923, 2.784]s calls=[2812, 2731] startup=[3.78, 2.77]s
+baseline_random.py             seed=103      +8.057 bb/deal CI[+6.576,+9.538] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[0.891, 1.104]s calls=[2743, 2751] startup=[2.27, 2.28]s
+POOLED baseline_random.py        +8.761 bb/deal CI[+7.905,+9.617] over 3000 paired deals
+baseline_calling_station.py    seed=101     +12.382 bb/deal CI[+11.381,+13.383] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[1.762, 2.483]s calls=[3852, 3846] startup=[3.27, 2.26]s
+baseline_calling_station.py    seed=102     +10.749 bb/deal CI[+9.751,+11.748] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[1.828, 1.033]s calls=[3885, 3858] startup=[2.77, 2.27]s
+baseline_calling_station.py    seed=103     +11.521 bb/deal CI[+10.523,+12.518] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[2.445, 1.525]s calls=[3852, 3879] startup=[2.26, 2.27]s
+POOLED baseline_calling_station.py  +11.551 bb/deal CI[+10.973,+12.128] over 3000 paired deals
+baseline_always_half.py        seed=101      +8.733 bb/deal CI[+7.367,+10.098] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[3.468, 4.106]s calls=[4306, 4291] startup=[2.26, 4.53]s
+baseline_always_half.py        seed=102      +9.168 bb/deal CI[+7.749,+10.588] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[3.295, 3.846]s calls=[4347, 4340] startup=[3.79, 2.28]s
+baseline_always_half.py        seed=103      +9.258 bb/deal CI[+7.868,+10.647] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[2.398, 1.955]s calls=[4236, 4306] startup=[4.55, 2.79]s
+POOLED baseline_always_half.py   +9.053 bb/deal CI[+8.250,+9.856] over 3000 paired deals
+baseline_always_pot.py         seed=101      +6.993 bb/deal CI[+5.482,+8.504] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[1.306, 4.118]s calls=[3249, 3264] startup=[2.79, 3.3]s
+baseline_always_pot.py         seed=102      +5.968 bb/deal CI[+4.418,+7.519] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[2.443, 2.779]s calls=[3320, 3322] startup=[2.27, 2.26]s
+baseline_always_pot.py         seed=103      +6.627 bb/deal CI[+5.070,+8.183] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[2.635, 2.493]s calls=[3193, 3276] startup=[2.26, 2.28]s
+POOLED baseline_always_pot.py    +6.529 bb/deal CI[+5.641,+7.418] over 3000 paired deals

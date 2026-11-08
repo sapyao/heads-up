@@ -195,3 +195,44 @@ def test_reads_port_from_environment():
 # ---------------------------------------------------------------------------
 # Add your own tests below, e.g. "with two aces preflop my bot raises".
 # ---------------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------------
+# Guard layer: no strategy failure may ever reach the judge as an error
+# ---------------------------------------------------------------------------
+
+def _boom(*a, **k):
+    raise RuntimeError("simulated strategy bug")
+
+
+@pytest.mark.parametrize("where", ["new_half", "choose_action", "on_hand_end"])
+def test_strategy_crash_never_reaches_judge(bot, monkeypatch, where):
+    module, client = bot
+    monkeypatch.setattr(module._strategy, where, _boom)
+    assert start_half(client).status_code == 200
+    play_hands(client, 40)          # asserts 200, no hand_end_errors, every action legal
+
+
+def test_strategy_illegal_action_is_replaced(bot, monkeypatch):
+    module, client = bot
+    monkeypatch.setattr(module._strategy, "choose_action", lambda obs, mem: "NOT_AN_ACTION")
+    start_half(client)
+    chosen = play_hands(client, 30)
+    assert set(chosen) <= {Action.CHECK_CALL, Action.FOLD}
+
+
+def test_strategy_missing_at_startup_still_plays(bot):
+    module, client = bot
+    module._strategy = None          # as if `import opsbot` had failed
+    assert start_half(client).status_code == 200
+    play_hands(client, 30)
+
+
+def test_full_length_half_both_seats_no_errors(bot):
+    """1000 hands against a raise-heavy opponent, then a fresh half in the other seat."""
+    module, client = bot
+    for half in (1, 2):
+        start_half(client, half=half, seat=half - 1)
+        play_hands(client, 1000, seed=f"long-{half}", raise_rate=0.5)
+        assert module.MEMORY.get("_guard_trips", 0) == 0
+        assert module.MEMORY.get("exceptions", 0) == 0 and module.MEMORY.get("fallbacks", 0) == 0

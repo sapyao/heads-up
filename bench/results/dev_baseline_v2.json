@@ -1,0 +1,1098 @@
+{
+ "agent1": "agent.py",
+ "agent1_env": {},
+ "deals": 1000,
+ "matches": [
+  {
+   "opponent": "baseline_random.py",
+   "seed": "101",
+   "bb_per_deal": 7.472,
+   "ci": [
+    5.988,
+    8.956
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    2.362,
+    2.141
+   ],
+   "calls": [
+    2743,
+    2700
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.55,
+    1.53
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 2741,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1539,
+     "hand_end_exceptions": 0,
+     "think": 1.7365,
+     "faced": 1064,
+     "folds": 298,
+     "opp_actions": 2094,
+     "opp_raises": 1401,
+     "est_charged_s": 3.107,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 2698,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1433,
+     "hand_end_exceptions": 0,
+     "think": 1.6293,
+     "faced": 1100,
+     "folds": 316,
+     "opp_actions": 2051,
+     "opp_raises": 1375,
+     "est_charged_s": 2.9783,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     3.107,
+     2.9783
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_random.py",
+   "seed": "102",
+   "bb_per_deal": 8.8005,
+   "ci": [
+    7.2781,
+    10.3229
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    2.484,
+    2.341
+   ],
+   "calls": [
+    2724,
+    2770
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.54,
+    1.54
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 2722,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1490,
+     "hand_end_exceptions": 0,
+     "think": 1.6718,
+     "faced": 1136,
+     "folds": 340,
+     "opp_actions": 2043,
+     "opp_raises": 1374,
+     "est_charged_s": 3.0328,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 2768,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1544,
+     "hand_end_exceptions": 0,
+     "think": 1.649,
+     "faced": 1068,
+     "folds": 293,
+     "opp_actions": 2096,
+     "opp_raises": 1411,
+     "est_charged_s": 3.033,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     3.0328,
+     3.033
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_random.py",
+   "seed": "103",
+   "bb_per_deal": 7.3245,
+   "ci": [
+    5.8448,
+    8.8042
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    2.169,
+    2.537
+   ],
+   "calls": [
+    2725,
+    2718
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.53,
+    1.55
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 2723,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1462,
+     "hand_end_exceptions": 0,
+     "think": 1.5651,
+     "faced": 1104,
+     "folds": 330,
+     "opp_actions": 2038,
+     "opp_raises": 1379,
+     "est_charged_s": 2.9266,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 2716,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1484,
+     "hand_end_exceptions": 0,
+     "think": 1.7619,
+     "faced": 1090,
+     "folds": 334,
+     "opp_actions": 2053,
+     "opp_raises": 1383,
+     "est_charged_s": 3.1199,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     2.9266,
+     3.1199
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_calling_station.py",
+   "seed": "101",
+   "bb_per_deal": 12.305,
+   "ci": [
+    11.3038,
+    13.3062
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    3.004,
+    3.343
+   ],
+   "calls": [
+    3852,
+    3846
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.55,
+    1.54
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 3850,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2850,
+     "hand_end_exceptions": 0,
+     "think": 2.1448,
+     "faced": 1546,
+     "folds": 0,
+     "opp_actions": 3818,
+     "opp_raises": 0,
+     "est_charged_s": 4.0698,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 3844,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2844,
+     "hand_end_exceptions": 0,
+     "think": 2.2689,
+     "faced": 1573,
+     "folds": 0,
+     "opp_actions": 3813,
+     "opp_raises": 0,
+     "est_charged_s": 4.1909,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     4.0698,
+     4.1909
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_calling_station.py",
+   "seed": "102",
+   "bb_per_deal": 10.7025,
+   "ci": [
+    9.7019,
+    11.7031
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    3.189,
+    3.107
+   ],
+   "calls": [
+    3885,
+    3858
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.54,
+    1.52
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 3883,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2883,
+     "hand_end_exceptions": 0,
+     "think": 2.1771,
+     "faced": 1536,
+     "folds": 0,
+     "opp_actions": 3843,
+     "opp_raises": 0,
+     "est_charged_s": 4.1186,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 3856,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2856,
+     "hand_end_exceptions": 0,
+     "think": 2.189,
+     "faced": 1503,
+     "folds": 0,
+     "opp_actions": 3793,
+     "opp_raises": 0,
+     "est_charged_s": 4.117,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     4.1186,
+     4.117
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_calling_station.py",
+   "seed": "103",
+   "bb_per_deal": 11.8095,
+   "ci": [
+    10.8272,
+    12.7918
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.25,
+    0.22
+   ],
+   "calls": [
+    3852,
+    3879
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.53,
+    1.54
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 3850,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2850,
+     "hand_end_exceptions": 0,
+     "think": 1.2525,
+     "faced": 1553,
+     "folds": 0,
+     "opp_actions": 3812,
+     "opp_raises": 0,
+     "est_charged_s": 3.1775,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 3877,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2877,
+     "hand_end_exceptions": 0,
+     "think": 1.2628,
+     "faced": 1492,
+     "folds": 0,
+     "opp_actions": 3835,
+     "opp_raises": 0,
+     "est_charged_s": 3.2013,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     3.1775,
+     3.2013
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_always_half.py",
+   "seed": "101",
+   "bb_per_deal": 9.061,
+   "ci": [
+    7.6916,
+    10.4304
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.185,
+    0.119
+   ],
+   "calls": [
+    4276,
+    4253
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.53,
+    1.53
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 4274,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2476,
+     "hand_end_exceptions": 0,
+     "think": 1.1613,
+     "faced": 1238,
+     "folds": 0,
+     "opp_actions": 3063,
+     "opp_raises": 2929,
+     "est_charged_s": 3.2983,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 4251,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2418,
+     "hand_end_exceptions": 0,
+     "think": 1.0809,
+     "faced": 1302,
+     "folds": 0,
+     "opp_actions": 3078,
+     "opp_raises": 2926,
+     "est_charged_s": 3.2064,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     3.2983,
+     3.2064
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_always_half.py",
+   "seed": "102",
+   "bb_per_deal": 9.0305,
+   "ci": [
+    7.5804,
+    10.4806
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.368,
+    0.693
+   ],
+   "calls": [
+    4321,
+    4299
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.52,
+    1.53
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 4319,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2494,
+     "hand_end_exceptions": 0,
+     "think": 1.2806,
+     "faced": 1308,
+     "folds": 0,
+     "opp_actions": 3124,
+     "opp_raises": 2979,
+     "est_charged_s": 3.4401,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 4297,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2520,
+     "hand_end_exceptions": 0,
+     "think": 1.4316,
+     "faced": 1216,
+     "folds": 0,
+     "opp_actions": 3104,
+     "opp_raises": 2969,
+     "est_charged_s": 3.5801,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     3.4401,
+     3.5801
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_always_half.py",
+   "seed": "103",
+   "bb_per_deal": 8.8875,
+   "ci": [
+    7.4798,
+    10.2952
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.327,
+    0.181
+   ],
+   "calls": [
+    4232,
+    4275
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.53,
+    1.53
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 4230,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2400,
+     "hand_end_exceptions": 0,
+     "think": 1.2259,
+     "faced": 1303,
+     "folds": 0,
+     "opp_actions": 3078,
+     "opp_raises": 2927,
+     "est_charged_s": 3.3409,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 4273,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 2477,
+     "hand_end_exceptions": 0,
+     "think": 1.1635,
+     "faced": 1270,
+     "folds": 0,
+     "opp_actions": 3092,
+     "opp_raises": 2952,
+     "est_charged_s": 3.3,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     3.3409,
+     3.3
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_always_pot.py",
+   "seed": "101",
+   "bb_per_deal": 6.789,
+   "ci": [
+    5.2802,
+    8.2978
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.137,
+    0.163
+   ],
+   "calls": [
+    3260,
+    3228
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.53,
+    1.52
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 3258,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1459,
+     "hand_end_exceptions": 0,
+     "think": 0.8135,
+     "faced": 1041,
+     "folds": 0,
+     "opp_actions": 2249,
+     "opp_raises": 2249,
+     "est_charged_s": 2.4425,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 3226,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1392,
+     "hand_end_exceptions": 0,
+     "think": 0.7926,
+     "faced": 1090,
+     "folds": 0,
+     "opp_actions": 2229,
+     "opp_raises": 2229,
+     "est_charged_s": 2.4056,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     2.4425,
+     2.4056
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_always_pot.py",
+   "seed": "102",
+   "bb_per_deal": 6.0035,
+   "ci": [
+    4.4339,
+    7.5731
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.232,
+    0.165
+   ],
+   "calls": [
+    3324,
+    3302
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.51,
+    1.55
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 3322,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1497,
+     "hand_end_exceptions": 0,
+     "think": 0.8995,
+     "faced": 1098,
+     "folds": 0,
+     "opp_actions": 2298,
+     "opp_raises": 2298,
+     "est_charged_s": 2.5605,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 3300,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1523,
+     "hand_end_exceptions": 0,
+     "think": 0.8569,
+     "faced": 1035,
+     "folds": 0,
+     "opp_actions": 2280,
+     "opp_raises": 2280,
+     "est_charged_s": 2.5069,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     2.5605,
+     2.5069
+    ],
+    "missing": false
+   }
+  },
+  {
+   "opponent": "baseline_always_pot.py",
+   "seed": "103",
+   "bb_per_deal": 6.4435,
+   "ci": [
+    4.9038,
+    7.9832
+   ],
+   "verdict": "AGENT1_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.227,
+    0.217
+   ],
+   "calls": [
+    3207,
+    3242
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.55,
+    1.52
+   ],
+   "error_messages": [],
+   "ops_stats": [
+    {
+     "decisions": 3205,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1376,
+     "hand_end_exceptions": 0,
+     "think": 0.8194,
+     "faced": 1099,
+     "folds": 0,
+     "opp_actions": 2233,
+     "opp_raises": 2233,
+     "est_charged_s": 2.4219,
+     "exceptions_logged": 0
+    },
+    {
+     "decisions": 3240,
+     "fallbacks": 0,
+     "exceptions": 0,
+     "illegal": 0,
+     "cheap": 0,
+     "emergency": 0,
+     "mc_decisions": 1444,
+     "hand_end_exceptions": 0,
+     "think": 0.8653,
+     "faced": 1053,
+     "folds": 0,
+     "opp_actions": 2249,
+     "opp_raises": 2249,
+     "est_charged_s": 2.4853,
+     "exceptions_logged": 0
+    }
+   ],
+   "internal": {
+    "exceptions": 0,
+    "illegal": 0,
+    "fallbacks": 0,
+    "cheap": 0,
+    "emergency": 0,
+    "hand_end_exceptions": 0,
+    "est_charged_s": [
+     2.4219,
+     2.4853
+    ],
+    "missing": false
+   }
+  }
+ ],
+ "pooled": {
+  "baseline_random.py": {
+   "bb_per_deal": 7.865666666666667,
+   "ci": [
+    7.002219599436486,
+    8.729113733896847
+   ],
+   "deals": 3000
+  },
+  "baseline_calling_station.py": {
+   "bb_per_deal": 11.605666666666666,
+   "ci": [
+    11.0310610798095,
+    12.180272253523832
+   ],
+   "deals": 3000
+  },
+  "baseline_always_half.py": {
+   "bb_per_deal": 8.993,
+   "ci": [
+    8.179507477112885,
+    9.806492522887115
+   ],
+   "deals": 3000
+  },
+  "baseline_always_pot.py": {
+   "bb_per_deal": 6.412,
+   "ci": [
+    5.523341659448389,
+    7.300658340551611
+   ],
+   "deals": 3000
+  }
+ },
+ "problem_matches": 0
+}

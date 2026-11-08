@@ -1,0 +1,14 @@
+agent1=baseline-bots/sparring_tag.py env={} deals=1000 (bot logs: C:\Users\ethan\AppData\Local\Temp\ops_eval_vl_8kr7c)
+baseline_random.py             seed=101      +5.312 bb/deal CI[+3.753,+6.872] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[0.45, 0.441]s calls=[2548, 2412] startup=[1.01, 1.02]s
+   internal: exceptions=0 illegal=0 fallbacks=0 cheap=0 emergency=0 est_charged=[]s
+POOLED baseline_random.py        +5.312 bb/deal CI[+3.753,+6.872] over 1000 paired deals
+baseline_calling_station.py    seed=101     +10.090 bb/deal CI[+9.122,+11.058] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[0.997, 1.026]s calls=[3771, 3777] startup=[1.04, 1.02]s
+   internal: exceptions=0 illegal=0 fallbacks=0 cheap=0 emergency=0 est_charged=[]s
+POOLED baseline_calling_station.py  +10.090 bb/deal CI[+9.122,+11.058] over 1000 paired deals
+baseline_always_half.py        seed=101      +4.403 bb/deal CI[+2.745,+6.061] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[0.679, 0.604]s calls=[3417, 3407] startup=[1.03, 1.02]s
+   internal: exceptions=0 illegal=0 fallbacks=0 cheap=0 emergency=0 est_charged=[]s
+POOLED baseline_always_half.py   +4.403 bb/deal CI[+2.745,+6.061] over 1000 paired deals
+baseline_always_pot.py         seed=101      +4.058 bb/deal CI[+2.372,+5.744] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[0.402, 0.414]s calls=[2825, 2803] startup=[1.01, 1.02]s
+   internal: exceptions=0 illegal=0 fallbacks=0 cheap=0 emergency=0 est_charged=[]s
+POOLED baseline_always_pot.py    +4.058 bb/deal CI[+2.372,+5.744] over 1000 paired deals
+matches with problems: 0

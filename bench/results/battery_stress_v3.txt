@@ -1,0 +1,8 @@
+agent1=agent.py env={} deals=1000 (bot logs: C:\Users\ethan\AppData\Local\Temp\ops_eval_iu6o0vp3)
+baseline_always_half.py        seed=101      +4.503 bb/deal CI[+3.070,+5.936] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[3.519, 4.07]s calls=[3684, 3490] startup=[1.52, 2.01]s
+   internal: exceptions=0 illegal=0 fallbacks=0 cheap=1834 emergency=376 est_charged=[6.7688, 6.8094]s
+POOLED baseline_always_half.py   +4.503 bb/deal CI[+3.069,+5.937] over 1000 paired deals
+sparring_tag.py                seed=101      +3.372 bb/deal CI[+2.087,+4.657] AGENT1_WIN  err=[0, 0] forfeit=[False, False] think=[3.909, 4.83]s calls=[2966, 2918] startup=[1.54, 1.51]s
+   internal: exceptions=0 illegal=0 fallbacks=0 cheap=1443 emergency=0 est_charged=[5.8445, 6.1567]s
+POOLED sparring_tag.py           +3.372 bb/deal CI[+2.087,+4.657] over 1000 paired deals
+matches with problems: 0

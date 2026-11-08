@@ -1,0 +1,509 @@
+{
+ "agent1": "bench/starter_agent.py",
+ "agent1_env": {},
+ "deals": 1000,
+ "matches": [
+  {
+   "opponent": "baseline_random.py",
+   "seed": "101",
+   "bb_per_deal": -1.063,
+   "ci": [
+    -1.1053,
+    -1.0207
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.044,
+    0.01
+   ],
+   "calls": [
+    1129,
+    1129
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.03,
+    1.52
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_random.py",
+   "seed": "102",
+   "bb_per_deal": -1.057,
+   "ci": [
+    -1.0996,
+    -1.0144
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.019,
+    0.024
+   ],
+   "calls": [
+    1129,
+    1129
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.51,
+    1.54
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_random.py",
+   "seed": "103",
+   "bb_per_deal": -1.055,
+   "ci": [
+    -1.0977,
+    -1.0123
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.031,
+    0.015
+   ],
+   "calls": [
+    1129,
+    1129
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.54,
+    1.53
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_calling_station.py",
+   "seed": "101",
+   "bb_per_deal": -0.489,
+   "ci": [
+    -0.5495,
+    -0.4285
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.033,
+    0.025
+   ],
+   "calls": [
+    2502,
+    2502
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.54,
+    1.53
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_calling_station.py",
+   "seed": "102",
+   "bb_per_deal": -0.436,
+   "ci": [
+    -0.4966,
+    -0.3754
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.018,
+    0.027
+   ],
+   "calls": [
+    2502,
+    2502
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.54,
+    1.52
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_calling_station.py",
+   "seed": "103",
+   "bb_per_deal": -0.484,
+   "ci": [
+    -0.5445,
+    -0.4235
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.012,
+    0.014
+   ],
+   "calls": [
+    2502,
+    2502
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.03,
+    1.02
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_always_half.py",
+   "seed": "101",
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.028,
+    0.004
+   ],
+   "calls": [
+    1002,
+    1002
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.01,
+    1.04
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_always_half.py",
+   "seed": "102",
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.029,
+    0.015
+   ],
+   "calls": [
+    1002,
+    1002
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.03,
+    1.04
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_always_half.py",
+   "seed": "103",
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.004,
+    0.029
+   ],
+   "calls": [
+    1002,
+    1002
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.02,
+    1.03
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_always_pot.py",
+   "seed": "101",
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.034,
+    0.023
+   ],
+   "calls": [
+    1002,
+    1002
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.02,
+    1.02
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_always_pot.py",
+   "seed": "102",
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.023,
+    0.77
+   ],
+   "calls": [
+    1002,
+    1002
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    1.02,
+    1.53
+   ],
+   "error_messages": []
+  },
+  {
+   "opponent": "baseline_always_pot.py",
+   "seed": "103",
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "verdict": "AGENT2_WIN",
+   "errors": [
+    0,
+    0
+   ],
+   "forfeited": [
+    false,
+    false
+   ],
+   "timed_out": [
+    false,
+    false
+   ],
+   "think_s": [
+    0.026,
+    0.056
+   ],
+   "calls": [
+    1002,
+    1002
+   ],
+   "opp_errors": [
+    0,
+    0
+   ],
+   "startup_s": [
+    2.28,
+    1.52
+   ],
+   "error_messages": []
+  }
+ ],
+ "pooled": {
+  "baseline_random.py": {
+   "bb_per_deal": -1.0583333333333333,
+   "ci": [
+    -1.0828899996747932,
+    -1.0337766669918735
+   ],
+   "deals": 3000
+  },
+  "baseline_calling_station.py": {
+   "bb_per_deal": -0.4696666666666667,
+   "ci": [
+    -0.5046013275750683,
+    -0.4347320057582651
+   ],
+   "deals": 3000
+  },
+  "baseline_always_half.py": {
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "deals": 3000
+  },
+  "baseline_always_pot.py": {
+   "bb_per_deal": -1.5,
+   "ci": [
+    -1.5,
+    -1.5
+   ],
+   "deals": 3000
+  }
+ }
+}
